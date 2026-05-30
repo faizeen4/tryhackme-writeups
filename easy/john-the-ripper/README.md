@@ -47,10 +47,10 @@ rockyou.com
 
 #### Key Concepts
 
--Basic Syntax: john [options] [file path]
--For automatic Cracking: john --wordlist=[path to wordlist] [path to file]
--Hash Identifier: wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py       $ python3 hash-id.py
--Format Specific Cracking: john --format=[format] --wordlist=[path to wordlist] [path to file]
+- Basic Syntax: john [options] [file path]
+- For automatic Cracking: john --wordlist=[path to wordlist] [path to file]
+- Hash Identifier: wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py       $ python3 hash-id.py
+- Format Specific Cracking: john --format=[format] --wordlist=[path to wordlist] [path to file]
 
 
 ## References
