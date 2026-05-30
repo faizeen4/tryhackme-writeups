@@ -156,6 +156,12 @@ What is the cracked value of this password?
 
 mushroom
 
+### Task6: Cracking Hashes from /etc/shadow
+
+#### Key Concepts
+
+-
+
 
 
 
