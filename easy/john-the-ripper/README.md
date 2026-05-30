@@ -16,7 +16,7 @@ This writeup documents my learning experience while completing the TryHackMe "Jo
 - Commonly used in penetration testing and security auditing.
 
 
-### Task 2
+### Task 2: Basic Terms
 
 #### Key Concepts
 
@@ -32,7 +32,7 @@ What is the most popular extended version of John the Ripper?
 
 Jumbo John
 
-### Task 3
+### Task 3: Setting Up Your System
 
 #### Question
 
@@ -42,7 +42,7 @@ Which website’s breach was the rockyou.txt wordlist created from?
 
 rockyou.com
 
-### Task 4
+### Task 4: Cracking Basic Hashes
 
 #### Key Concepts
 
@@ -127,6 +127,32 @@ What is the cracked value of hash4.txt?
 ![Task 4.8](images/jtr-Task-04-8.png)
 
 colossal
+
+### Task5: Cracking Windows Authentication Hashes
+
+#### Key Concepts
+
+-NThash is the hash format modern Windows operating system machines use to store user and service passwords.
+-Also referred as NTLM.
+
+#### Question
+
+What do we need to set the --format flag to in order to crack this hash?
+
+#### Answer
+
+nt
+
+#### Question
+
+What is the cracked value of this password?
+
+#### Answer
+
+mushroom
+
+
+
 
 
 
