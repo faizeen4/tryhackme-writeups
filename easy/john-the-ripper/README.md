@@ -52,6 +52,26 @@ rockyou.com
 - Hash Identifier: wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py       $ python3 hash-id.py
 - Format Specific Cracking: john --format=[format] --wordlist=[path to wordlist] [path to file]
 
+####
+Question
+
+What type of hash is hash1.txt?
+
+### Answer
+
+md5
+
+####
+Question
+
+What is the cracked value of hash1.txt?
+
+### Answer
+
+biscuit
+
+
+
 
 ## References
 
