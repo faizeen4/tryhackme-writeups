@@ -65,6 +65,7 @@ md5
 Question
 
 What is the cracked value of hash1.txt?
+![Task 4.2](images/jtr-Task-04-2.png)
 
 ### Answer
 
