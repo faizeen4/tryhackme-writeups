@@ -62,9 +62,10 @@ md5
 #### Question
 
 What is the cracked value of hash1.txt?
-![Task 4.2](images/jtr-Task-04-2.png)
 
 #### Answer
+
+![Task 4.2](images/jtr-Task-04-2.png)
 
 biscuit
 
@@ -79,36 +80,40 @@ sha1
 #### Question
 
 What is the cracked value of hash2.txt?
-![Task 4.4](images/jtr-Task-04-4.png)
 
 #### Answer
+
+![Task 4.4](images/jtr-Task-04-4.png)
 
 kangeroo
 
 #### Question
 
 What type of hash is hash3.txt?
-![Task 4.5](images/jtr-Task-04-5.png)
 
 #### Answer
+
+![Task 4.5](images/jtr-Task-04-5.png)
 
 sha256
 
 #### Question
 
 What is the cracked value of hash3.txt?
-![Task 4.6](images/jtr-Task-04-6.png)
 
 #### Answer
+
+![Task 4.6](images/jtr-Task-04-6.png)
 
 microphone
 
 #### Question
 
 What type of hash is hash4.txt?
-![Task 4.7](images/jtr-Task-04-7.png)
 
 #### Answer
+
+![Task 4.7](images/jtr-Task-04-7.png)
 
 whirlpool
 
@@ -116,9 +121,10 @@ whirlpool
 #### Question
 
 What is the cracked value of hash4.txt?
-![Task 4.8](images/jtr-Task-04-8.png)
 
 #### Answer
+
+![Task 4.8](images/jtr-Task-04-8.png)
 
 colossal
 
