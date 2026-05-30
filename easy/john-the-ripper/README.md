@@ -141,6 +141,8 @@ What do we need to set the --format flag to in order to crack this hash?
 
 #### Answer
 
+![Task 4.5](images/jtr-Task-05-1.png)
+
 nt
 
 #### Question
@@ -148,6 +150,9 @@ nt
 What is the cracked value of this password?
 
 #### Answer
+
+![Task 4.5](images/jtr-Task-05-2.png)
+
 
 mushroom
 
