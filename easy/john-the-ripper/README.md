@@ -160,12 +160,149 @@ mushroom
 
 #### Key Concepts
 
--
+- unshadow [path to passwd] [path to shadow]
+- FILE 1 - local_passwd
+  Contains the /etc/passwd line for the root user
+-FILE 2 - local_shadow
+  Contains the /etc/shadow line for the root user
 
 
+#### Question
+
+What is the root password?
+
+#### Answer
+
+![Task 4.6](images/jtr-Task-06-1.png)
+
+1234
 
 
+### Task7: Single Crack Mode
 
+#### Key Concepts
+
+- john --single --format=[format] [path to file]
+- Prepend the hash with the username that the hash belongs to.
+
+
+#### Question
+
+What is Joker’s password?
+
+#### Answer
+
+![Task 4.7](images/jtr-Task-07-1.png)
+
+Jok3r
+
+### Task8: Custom Rules
+
+#### Key Concepts
+
+
+- Az: Takes the word and appends it with the characters you define
+- A0: Takes the word and prepends it with the characters you define
+- c: Capitalises the character positionally
+- john --wordlist=[path to wordlist] --rule=[set of rules customized] [path to file]
+
+
+#### Question
+
+What do custom rules allow us to exploit?
+
+#### Answer
+
+Password complexity predictability
+
+#### Question
+
+What rule would we use to add all capital letters to the end of the word?
+
+#### Answer
+
+Az"[A-Z]"
+
+#### Question
+
+What flag would we use to call a custom rule called THMRules?
+
+#### Answer
+
+--rule=THMRules
+
+### Task9: Cracking Password Protected Zip File
+
+#### Key Concepts
+
+- zip2john [options] [zip file] > [output file]
+
+
+#### Question
+
+What is the password for the secure.zip file?
+
+#### Answer
+
+![Task 4.9](images/jtr-Task-09-1.png)
+
+Pass123
+
+#### Question
+
+What is the contents of the flag inside the zip file?
+
+#### Answer
+
+![Task 4.9](images/jtr-Task-09-2.png)
+
+THM{w3ll_d0n3_h4sh_r0y4l}
+
+### Task10: Cracking Password Protected RAR Archives
+
+#### Key Concepts
+
+- rar2john [rar file] > [output file]
+
+
+#### Question
+
+What is the password for the secure.rar file?
+
+#### Answer
+
+![Task 4.10](images/jtr-Task-10-1.png)
+
+password
+
+#### Question
+
+What are the contents of the flag inside the rar file?
+
+#### Answer
+
+![Task 4.10](images/jtr-Task-10-2.png)
+
+THM{r4r_4rch1ve5_th15_t1m3}
+
+
+### Task11: Cracking SSH Keys with John
+
+#### Key Concepts
+
+- ssh2john [id_rsa private key file] > [output file]
+- If you don’t have ssh2john installed,use  python /usr/share/john/ssh2john.py
+
+
+#### Question
+
+What is the SSH private key password?
+
+#### Answer
+
+![Task 4.11](images/jtr-Task-11-1.png)
+
+mango
 
 ## References
 
