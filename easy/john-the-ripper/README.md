@@ -281,7 +281,7 @@ What are the contents of the flag inside the rar file?
 
 #### Answer
 
-![Task 4.10](images/jtr-Task-10-2.png)
+![Task 4.10](images/trt-Task-10-2.png)
 
 THM{r4r_4rch1ve5_th15_t1m3}
 
