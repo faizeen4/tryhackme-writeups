@@ -132,8 +132,8 @@ colossal
 
 #### Key Concepts
 
--NThash is the hash format modern Windows operating system machines use to store user and service passwords.
--Also referred as NTLM.
+- NThash is the hash format modern Windows operating system machines use to store user and service passwords.
+- Also referred as NTLM.
 
 #### Question
 
