@@ -22,6 +22,8 @@ Use Hydra to brute-force molly's web password. What is the value of flag 1?
 
 #### Answer
 
+![Task 2.1](images/h-Task2-1.png)
+
 THM{2673a7dd116de68e85c48ec0b1f2612e}
 
 #### Question
@@ -29,6 +31,10 @@ THM{2673a7dd116de68e85c48ec0b1f2612e}
 Use Hydra to brute-force molly's SSH password. What is the value of flag 2?
 
 #### Answer
+
+![Task 2.2](images/h-Task2-2.png)
+
+![Task 2.3](images/h-Task2-3.png)
 
 THM{c8eeb0468febbadea859baeb33b2541b}
 
