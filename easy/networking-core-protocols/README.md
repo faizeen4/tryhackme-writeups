@@ -82,6 +82,27 @@ Use telnet to access the file flag.html on 10.48.188.67. What is the hidden flag
 
 THM{TELNET-HTTP}
 
+## Task 4: FTP: Transferring Files
+
+
+### Description
+
+- FTP(File Transfer Protocol), is efficient for file transfer and when all conditions are equal, it can achieve higher speeds than HTTP.
+- FTP server listens on TCP port 21 by default.
+- Some commands defined by the FTP protocol are: USER, PASS, RETR, STOR.
+
+
+
+#### Question
+
+Using the FTP client ftp on the AttackBox, access the FTP server at 10.48.188.67 and retrieve flag.txt. What is the flag found?
+
+#### Answer
+
+![Task 5.0](images/ncp-t5-0.png)
+
+THM{FAST-FTP}
+
 
 
 
