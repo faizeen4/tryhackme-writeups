@@ -141,7 +141,7 @@ Looking at the traffic exchange, what is the name of the POP3 server running on 
 
 #### Answer
 
-![Task 7.0](images/ncp-tp7-0.png)
+![Task 7.0](images/ncp-t7-0.png)
 
 Dovecot
 
