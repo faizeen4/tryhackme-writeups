@@ -82,7 +82,7 @@ Use telnet to access the file flag.html on 10.48.188.67. What is the hidden flag
 
 THM{TELNET-HTTP}
 
-## Task 4: FTP: Transferring Files
+## Task 5: FTP: Transferring Files
 
 
 ### Description
@@ -102,6 +102,78 @@ Using the FTP client ftp on the AttackBox, access the FTP server at 10.48.188.67
 ![Task 5.0](images/ncp-t5-0.png)
 
 THM{FAST-FTP}
+
+## Task 6: SMTP: Sending Email
+
+
+### Description
+
+- The SMTP server listens on TCP port 25 by default.
+- Simple Mail Transfer Protocol (SMTP) use comands such as HELO/EHLO, MAIL FROM, RCPT TO, DATA, . .
+
+#### Question
+
+Which SMTP command indicates that the client will start the contents of the email message?
+
+#### Answer
+
+DATA
+
+#### Question
+
+What does the email client send to indicate that the email message has been fully entered?
+
+#### Answer
+
+.
+
+## Task 7: POP3: Receiving Email
+
+
+### Description
+
+- An email client sends its messages by relying on SMTP and retrieves them using POP3.
+- The POP3 server listens on TCP port 110 by default.
+
+#### Question
+
+Looking at the traffic exchange, what is the name of the POP3 server running on the remote server?
+
+#### Answer
+
+![Task 7.0](images/ncp-tp7-0.png)
+
+Dovecot
+
+#### Question
+
+Use telnet to connect to 10.48.172.46’s POP3 server. What is the flag contained in the fourth message?
+
+#### Answer
+
+![Task 7.1](images/ncp-t7-1.png)
+
+THM{TELNET_RETR_EMAIL}
+
+## Task 8: IMAP: Synchronizing Email
+
+
+### Description
+
+- Internet Message Access Protocol allows synchronizing read, moved, and deleted messages.
+- IMAP server listens on TCP port 143 by default.
+
+#### Question
+
+What IMAP command retrieves the fourth email message?
+
+#### Answer
+
+FETCH 4 body[]
+
+
+
+
 
 
 
