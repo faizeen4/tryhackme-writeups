@@ -39,3 +39,72 @@ What is a common activity attackers perform after obtaining shell access to esca
 
 Privilege Escalation
 
+## Task 3: Reverse Shell
+
+### Description
+
+- Also called  "connect back shell", connections initiate from the target system to the attacker's machine, which can help avoid detection from network firewalls and other security appliances.
+- Netcat  supports multiple OSs and allows reading and writing through a network.
+- Once we have our listener set, the attacker should execute what is known as a reverse shell payload.
+- https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+- Once the above payload is executed, the attacker will receive a reverse shell, allowing them to execute commands as if they were logging into a regular terminal in the OS.
+  
+#### Question
+
+What type of shell allows an attacker to execute commands remotely after the target connects back?
+
+#### Answer
+
+Reverse Shell
+
+#### Question
+
+What tool is commonly used to set up a listener for a reverse shell?
+
+#### Answer
+
+Netcat
+
+## Task 4: Bind Shell
+
+### Description
+
+- A bind shell will bind a port on the compromised system and listen for a connection; when this connection occurs, it exposes the shell session so the attacker can execute commands remotely.
+  
+#### Question
+
+What type of shell opens a specific port on the target for incoming connections from the attacker?
+
+#### Answer
+
+Bind Shell
+
+#### Question
+
+Listening below which port number requires root access or privileged permissions?
+
+#### Answer
+
+1024
+
+## Task 5: Shell Listeners
+
+### Description
+
+- A bind shell will bind a port on the compromised system and listen for a connection; when this connection occurs, it exposes the shell session so the attacker can execute commands remotely.
+  
+#### Question
+
+What type of shell opens a specific port on the target for incoming connections from the attacker?
+
+#### Answer
+
+Bind Shell
+
+#### Question
+
+Listening below which port number requires root access or privileged permissions?
+
+#### Answer
+
+1024
