@@ -91,20 +91,64 @@ Listening below which port number requires root access or privileged permissions
 
 ### Description
 
-- A bind shell will bind a port on the compromised system and listen for a connection; when this connection occurs, it exposes the shell session so the attacker can execute commands remotely.
-  
-#### Question
-
-What type of shell opens a specific port on the target for incoming connections from the attacker?
-
-#### Answer
-
-Bind Shell
+- Rlwrap: It is a small utility that uses the GNU readline library to provide editing keyboard and history.
+- Ncat: Ncat is an improved version of Netcat distributed by the NMAP project. It provides extra features, like encryption (SSL).
+- Socat: It is a utility that allows you to create a socket connection between two data sources, in this case, two different hosts.
 
 #### Question
 
-Listening below which port number requires root access or privileged permissions?
+Which flexible networking tool allows you to create a socket connection between two data sources?
 
 #### Answer
 
-1024
+socat
+
+#### Question
+
+Which command-line utility provides readline-style editing and command history for programs that lack it, enhancing the interaction with a shell listener?
+
+#### Answer
+
+rlwrap
+
+#### Question
+
+What is the improved version of Netcat distributed with the Nmap project that offers additional features like SSL support for listening to encrypted shells?
+
+#### Answer
+
+ncat
+
+## Task 6: Shell Payloads
+
+### Description
+
+- Rlwrap: It is a small utility that uses the GNU readline library to provide editing keyboard and history.
+- Ncat: Ncat is an improved version of Netcat distributed by the NMAP project. It provides extra features, like encryption (SSL).
+- Socat: It is a utility that allows you to create a socket connection between two data sources, in this case, two different hosts.
+
+#### Question
+
+Which flexible networking tool allows you to create a socket connection between two data sources?
+
+#### Answer
+
+socat
+
+#### Question
+
+Which command-line utility provides readline-style editing and command history for programs that lack it, enhancing the interaction with a shell listener?
+
+#### Answer
+
+rlwrap
+
+#### Question
+
+What is the improved version of Netcat distributed with the Nmap project that offers additional features like SSL support for listening to encrypted shells?
+
+#### Answer
+
+ncat
+
+
