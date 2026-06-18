@@ -198,6 +198,8 @@ Using a reverse or bind shell, exploit the command injection vulnerability to ge
 
 #### Answer
 
+(images/shell.1.png)
+
 THM{0f28b3e1b00becf15d01a1151baf10fd713bc625}
 
 #### Question
