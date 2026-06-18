@@ -199,6 +199,11 @@ Using a reverse or bind shell, exploit the command injection vulnerability to ge
 #### Answer
 
 ![Task 8.1](images/shell.1.png)
+![Task 8.2](images/shell.2.png)
+![Task 8.3](images/shell.3.png)
+![Task 8.4](images/shell.4.png)
+![Task 8.5](images/shell.5.png)
+![Task 8.6](images/shell.6.png)
 
 THM{0f28b3e1b00becf15d01a1151baf10fd713bc625}
 
@@ -207,6 +212,10 @@ THM{0f28b3e1b00becf15d01a1151baf10fd713bc625}
 Using a web shell, exploit the unrestricted file upload vulnerability and get a shell. What is the content of the flag saved in the / directory?
 
 #### Answer
+
+![Task 8.7](images/shell.7.png)
+![Task 8.75](images/shell.75.png)
+![Task 8.8](images/shell.8.png)
 
 THM{202bb14ed12120b31300cfbbbdd35998786b44e5}
 
