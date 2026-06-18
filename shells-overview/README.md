@@ -164,4 +164,52 @@ Which scripting language can use a reverse shell by exporting environment variab
 
 Python
 
+## Task 7: Web Shell
+
+### Description
+
+-  A web shell is usually a file containing the code that executes commands and handles files.
+-  It can be hidden within a compromised web application or service, making it difficult to detect and very popular among attackers.
+-  p0wny-shell(opens in new tab) - A minimalistic single-file PHP web shell that allows remote command execution.
+-  b374k shell(opens in new tab) - A more feature-rich PHP web shell with file management and command execution, among other functionalities.
+-  c99 shell(opens in new tab) - A well-known and robust PHP web shell with extensive functionality
+
+#### Question
+
+What vulnerability type allows attackers to upload a malicious script by failing to restrict file types?
+
+#### Answer
+
+Unrestricted File Upload
+
+#### Question
+
+What is a malicious script uploaded to a vulnerable web application to gain unauthorized access?
+
+#### Answer
+
+Web Shell
+
+## Task 8: Practical Task
+
+#### Question
+
+Using a reverse or bind shell, exploit the command injection vulnerability to get a shell. What is the content of the flag saved in the / directory?
+
+#### Answer
+
+THM{0f28b3e1b00becf15d01a1151baf10fd713bc625}
+
+#### Question
+
+Using a web shell, exploit the unrestricted file upload vulnerability and get a shell. What is the content of the flag saved in the / directory?
+
+#### Answer
+
+THM{202bb14ed12120b31300cfbbbdd35998786b44e5}
+
+
+
+
+
 
