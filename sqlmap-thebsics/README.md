@@ -16,13 +16,12 @@ SQL
 ## Task 02: SQL Injection Vulnerability
 
 - Taking an example of login page, once we enter username and password, the website will receive it, make an SQL query with credentials, and send it to the database.
-- Username: John
-  Password: Un@detectable444
+- Username: John ,  Password: Un@detectable444
 - SELECT * FROM users WHERE username = 'John' AND password = 'Un@detectable444';
 - Attackers can manipulate the input and write SQL queries that would get executed in the database and perform the attacker’s desired actions.
-- Username: John
-  Password: abc' OR 1=1;-- -
+- Username: John , Password: abc' OR 1=1;-- -
 - SELECT * FROM users WHERE username = 'John' AND password = 'abc' OR 1=1;-- -';
+  
 ### Question
 
 Which boolean operator checks if at least one side of the operator is true for the condition to be true?
@@ -38,6 +37,30 @@ Is 1=1 in an SQL query always true? (YEA/NAY)
 ### Answer
 
 YEA
+
+
+## Task 03: Automated SQL Injection Tool
+
+- SQLMap is an automated tool for detecting and exploiting SQL injection vulnerabilities in web applications.
+- The --help command with SQLMap will list all the available flags.
+- The --wizard flag  will guide through each step and ask questions to complete the scan, making it a good choice for beginners.
+
+### Question
+
+Which flag in the SQLMap tool is used to extract all the databases available?
+
+### Answer
+
+
+
+### Question
+
+What would be the full command of SQLMap for extracting all tables from the "members" database? (Vulnerable URL: http://sqlmaptesting.thm/search/cat=1)
+
+### Answer
+
+
+
 
 
 
