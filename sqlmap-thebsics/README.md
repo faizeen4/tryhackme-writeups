@@ -70,6 +70,14 @@ sqlmap -u http://sqlmaptesting.thm/search/cat=1 -D members --tables
 
 ## Task 04: Practical
 
+![Task 4.1](images/sql1.png)
+![Task 4.2](images/sql2.png)
+![Task 4.3](images/sql3.png)
+![Task 4.4](images/sql4.png)
+![Task 4.5](images/sql5.png)
+![Task 4.6](images/sql6.png)
+![Task 4.7](images/sql7.png)
+![Task 4.8](images/sql8.png)
   
 ### Question
 
