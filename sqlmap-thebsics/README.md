@@ -44,6 +44,12 @@ YEA
 - SQLMap is an automated tool for detecting and exploiting SQL injection vulnerabilities in web applications.
 - The --help command with SQLMap will list all the available flags.
 - The --wizard flag  will guide through each step and ask questions to complete the scan, making it a good choice for beginners.
+- The --dbs flag extract all the database names.
+- To extract the information of database use -D database_name --tables.
+- To enumerate records in a table use -D database_name -T table_name --dump.
+- If any web application is using GET parameters in the URLs to retrieve data, test that URL with the -u flag in the SQLMap tool.
+- After logging into an application via a browser and capturing the session cookie, pass it to SQLMap using --cookie="SESSIONID=abcdef123456" to accurately test injection points that are only reachable after authentication.
+- 
 
 ### Question
 
@@ -51,13 +57,45 @@ Which flag in the SQLMap tool is used to extract all the databases available?
 
 ### Answer
 
-
+--dbs
 
 ### Question
 
 What would be the full command of SQLMap for extracting all tables from the "members" database? (Vulnerable URL: http://sqlmaptesting.thm/search/cat=1)
 
 ### Answer
+
+sqlmap -u http://sqlmaptesting.thm/search/cat=1 -D members --tables
+
+
+## Task 04: Practical
+
+  
+### Question
+
+How many databases are available in this web application?
+
+### Answer
+
+6
+
+### Question
+
+What is the name of the table available in the "ai" database?
+
+### Answer
+
+user
+
+### Question
+
+What is the password of the email test@chatai.com?
+
+### Answer
+
+12345678
+
+
 
 
 
