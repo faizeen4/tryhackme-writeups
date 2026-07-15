@@ -55,3 +55,95 @@ What is the number of the packet that contain the GET /login when accessing the 
 #### Answer
 
 10
+
+## Task 04: SMTPS,P0P3S. and IMAPS
+
+### Description
+
+- Adding TLS to SMTP, POP3, and IMAP is no different than adding TLS to HTTP.
+
+![Task 4.1](images/nsp3.png)
+
+  
+#### Question
+
+If you capture network traffic, in which of the following protocols can you extract login credentials: SMTPS, POP3S, or IMAP?
+
+#### Answer
+
+IMAP
+
+## Task 05: SSH
+
+### Description
+
+- Benefits of OpenSSH includes: Secure authentication, Confidentiality, Integrity, Tunneling, X11 Forwarding.
+- While the TELNET server listens on port 23, the SSH server listens on port 22.
+  
+#### Question
+
+What is the name of the open-source implementation of the SSH protocol?
+
+#### Answer
+
+OpenSSH
+
+## Task 06: SFTP and FTPS
+
+### Description
+
+- SFTP stands for SSH File Transfer Protocol and allows secure file transfer. It is part of the SSH protocol suite and shares the same port number, 22.
+- FTPS requires a proper TLS certificate to run securely.While FTP uses port 21, FTPS usually uses port 990.
+
+  
+#### Question
+
+Click on the View Site button to access the related site. Please follow the instructions on the site to obtain the flag.
+
+![Task 6.1](images/nsp4.png)
+
+#### Answer
+
+THM{Protocols_secur3d}
+
+## Task 07: VPN
+
+### Description
+
+- Once a VPN tunnel is established, all our Internet traffic will usually be routed over the VPN connection, i.e. via the VPN tunnel.
+- Depending on why you are using a VPN connection, you might need to run a few more tests, such as a DNS leak test.
+
+  
+#### Question
+
+What would you use to connect the various company sites so that users at a remote office can access resources located within the main branch?
+
+#### Answer
+
+VPN
+
+## Task 08: Closing Notes
+
+### Description
+  
+#### Question
+
+One of the packets contains login credentials. What password did the user submit?
+
+![Task 8.1](images/nsp5.png)
+![Task 8.2](images/nsp6.png)
+![Task 8.3](images/nsp7.png)
+
+#### Answer
+
+THM{B8WM6P}
+
+
+
+
+
+
+
+
+
+
