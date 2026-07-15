@@ -36,6 +36,9 @@ self-signed certificate
 
 - HTTPS stands for Hypertext Transfer Protocol Secure. It is basically HTTP over TLS.
 - Adding TLS to HTTP leads to all the packets being encrypted. We can no longer see the contents of the exchanged packets unless we get access to the private key.
+
+![Task 3.1](images/nsp1.png)
+![Task 3.2](images/nsp2.png)
   
 #### Question
 
