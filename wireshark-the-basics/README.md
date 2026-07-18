@@ -41,6 +41,8 @@ Read the "capture file comments". What is the flag?
 
 #### Answer
 
+![Task 2.1](images/wtb-1.png)
+
 TryHackMe_Wireshark_Demo
 
 #### Question
@@ -48,6 +50,8 @@ TryHackMe_Wireshark_Demo
 What is the total number of packets?
 
 #### Answer
+
+![Task 2.2](images/wtb-2.png)
 
 58620
 
@@ -57,6 +61,10 @@ What is the SHA256 hash value of the capture file?
 
 #### Answer
 
+![Task 2.3](images/wtb-3.png)
+
 f446de335565fb0b0ee5e5a3266703c778b2f3dfad7efeaeccb2da5641a6d6eb
+
+
 
 
