@@ -166,8 +166,8 @@ There is a ".txt" file inside the capture file. Find the file and read it; what 
 
 #### Answer
 
-![Task 4.3.1](images/wtb-11.1png)
-![Task 4.3.2](images/wtb-11.2png)
+![Task 4.3.1](images/wtb-11.1.png)
+![Task 4.3.2](images/wtb-11.2.png)
 
 PACKETMASTER
 
