@@ -124,5 +124,73 @@ What is the e-tag value?
 9a01a-4696-7e354b00
 
 
+## Task 04: Packet Navigation
+
+### Description
+
+- Wireshark calculates the number of investigated packets and assigns a unique number for each packet.
+- Use the "Go" menu and toolbar to view specific packets.
+- Use the "Edit --> Find Packet" menu to make a search inside the packets for a particular event of interest.
+- Add comments for particular packets that will help the further investigation or remind and point out important/suspicious points for other layer analysts.
+- Exporting objects are available only for selected protocol's streams (DICOM, HTTP, IMF, SMB and TFTP).
+- Wireshark also detects specific states of protocols to help analysts easily spot possible anomalies and problems. Note that these are only suggestions, and there is always a chance of having false
+  positives/negatives.
+- Use the "lower left bottom section" in the status bar or "Analyse --> Expert Information" menu to view all available information entries via a dialogue box.  
+
+#### Question
+
+Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string in packet details. What is the name of artist 1?
+
+#### Answer
+
+![Task 4.1](images/wtb-9.png)
+
+r4w8173
+
+#### Question
+
+Go to packet 12 and read the packet comments. What is the answer?
+Note: use md5sum <filename> terminal command to get MD5 hash
+
+#### Answer
+
+![Task 4.2.1](images/wtb-10.1.png)
+![Task 4.2.2](images/wtb-10.2.png)
+![Task 4.2.3](images/wtb-10.3.png)
+
+911cd574a42865a956ccde2d04495ebf 
+
+#### Question
+
+There is a ".txt" file inside the capture file. Find the file and read it; what is the alien's name?
+
+#### Answer
+
+![Task 4.3.1](images/wtb-11.1png)
+![Task 4.3.2](images/wtb-11.2png)
+
+PACKETMASTER
+
+#### Question
+
+Look at the expert info section. What is the number of warnings?
+
+#### Answer
+
+![Task 4.4](images/wtb-12.png)
+
+1636
+
+
+
+
+
+
+
+
+
+
+
+
 
 
