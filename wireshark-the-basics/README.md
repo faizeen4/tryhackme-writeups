@@ -185,7 +185,58 @@ Look at the expert info section. What is the number of warnings?
 
 ### Description
 
+- Capture filters are used for "capturing" only the packets valid for the used filter.
+- Display filters are used for "viewing" the packets valid for the used filter.
+- Filters are specific queries designed for protocols available in Wireshark's official protocol reference.
+- While investigating a capture file, you can click on the field you want to filter and use the "right-click menu" or "Analyse --> Apply as Filter" menu to filter the specific value.
+- Suppose you want to investigate a specific packet number and all linked packets by focusing on IP addresses and port numbers. In that case, the "Conversation Filter" option helps you view only the related packets and hide the rest of the packets easily.
+-  Streams are shown in a separate dialogue box; packets originating from the server are highlighted with blue, and those originating from the client are highlighted with red.
+-  Once you follow a stream, Wireshark automatically creates and applies the required filter to view the specific stream.
+-  To filter by protocol name, simply type in the protocol name and hit enter or click on the arrow button at the right hand side of the display filter bar.
+-  To filter by protocol port number, you can use the structure "tcp.port == <port number>" or "udp.port == <port number>".
+-  To filter for a specific IP, you can use the structure "ip.addr == <IP address>".
 
+#### Question
+
+Use the "Exercise.pcapng" file to answer the questions.
+Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter.
+Now, look at the filter pane. What is the filter query?
+
+#### Answer
+
+![Task 5.1](images/wtb-13.png)
+
+http
+
+#### Question
+
+What is the number of displayed packets?
+
+#### Answer
+
+1089
+
+#### Question
+
+Go to packet number 33790, follow the HTTP stream, and look carefully at the responses.
+Looking at the web server's response, what is the total number of artists?
+
+#### Answer
+
+![Task 5.3.1](images/wtb-14.png)
+![Task 5.3.2](images/wtb-15.png)
+
+3
+
+#### Question
+
+What is the name of the second artist?
+
+#### Answer
+
+![Task 5.4](images/wtb-16.png)
+
+Blad3
 
 
 
