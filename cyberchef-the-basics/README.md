@@ -144,7 +144,7 @@ What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyb
 #### Answer
 
 ![Task 6.3](images/cc8.png)
-[TryHackMe.com](https://tryhackme.com/r/room/cyberchefbasics)
+https://tryhackme.com/r/room/cyberchefbasics
 
 #### Question
 
