@@ -62,7 +62,6 @@ At which step would you determine, "What do I want to accomplish?
 
 1
 
-
 ## Task 05: Practice, Practice, Practice
 
 ### Description
@@ -78,6 +77,8 @@ What is the hidden email address?
 
 #### Answer
 
+![Task 5.1](images/cc1.png)
+
 hidden@hotmail.com
 
 #### Question
@@ -86,6 +87,7 @@ What is the hidden IP address that ends in .232?
 
 #### Answer
 
+![Task 5.2](images/cc2.png)
 102.20.11.232
 
 #### Question
@@ -94,6 +96,7 @@ Which domain address starts with the letter "T"?
 
 #### Answer
 
+![Task 5.3](images/cc3.png)
 TryHackMe.com
 
 #### Question
@@ -102,12 +105,14 @@ What is the binary value of the decimal number 78?
 
 #### Answer
 
+![Task 5.4](images/cc4.png)
 01001110
 
 #### Question
 
 What is the URL encoded value of https://tryhackme.com/r/careers?
 
+![Task 5.5](images/cc5.png)
 #### Answer
 
 https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Fcareers
@@ -120,6 +125,7 @@ Using the file you downloaded in Task 5, which IP starts and ends with "10"?
 
 #### Answer
 
+![Task 6.1](images/cc6.png)
 10.10.2.10
 
 #### Question
@@ -128,6 +134,7 @@ What is the base64 encoded value of the string "Nice Room!"?
 
 #### Answer
 
+![Task 6.2](images/cc7.png)
 TmljZSBSb29tIQ==
 
 #### Question
@@ -136,6 +143,7 @@ What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyb
 
 #### Answer
 
+![Task 6.3](images/cc8.png)
 [TryHackMe.com](https://tryhackme.com/r/room/cyberchefbasics)
 
 #### Question
@@ -144,6 +152,7 @@ What is the datetime string for the Unix timestamp 1725151258?
 
 #### Answer
 
+![Task 6.4](images/cc9.png)
 Sun 1 September 2024 00:40:58 UTC
 
 #### Question
@@ -152,4 +161,5 @@ Sun 1 September 2024 00:40:58 UTC
  
 #### Answer
 
+![Task 6.5](images/cc10.png)
 This is fun!
