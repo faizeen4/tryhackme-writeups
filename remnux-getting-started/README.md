@@ -86,3 +86,73 @@ Using the tool, scan another file named possible_malicious.docx located in the /
 #### Answer
 
 8
+
+## Task 04: Fake Network to Aid Analysis
+
+### Description
+
+- 
+
+#### Question
+
+Download and scan the file named flag.txt from the terminal using the command sudo wget https://MACHINE_IP/flag.txt --no-check-certificate. What is the flag?
+
+#### Answer
+
+
+
+#### Question
+
+After stopping the inetsim, read the generated report. Based on the report, what URL Method was used to get the file flag.txt?
+
+#### Answer
+
+
+
+## Task 05: Memory Investigation: Evidence Preprocessing
+
+### Description
+
+- 
+
+#### Question
+
+What plugin lists processes in a tree based on their parent process ID?
+
+#### Answer
+
+
+
+#### Question
+
+What plugin is used to list all currently active processes in the machine?
+
+#### Answer
+
+
+
+#### Question
+
+By running vol3 with the Malfind parameter, what is the first (1st) process identified suspected of having an injected code?
+
+#### Answer
+
+
+
+#### Question
+
+Continuing from the previous question (Question 4), what is the second (2nd) process identified suspected of having an injected code?
+
+#### Answer
+
+
+
+#### Question
+
+By running vol3 with the DllList parameter, what is the file path or directory of the binary @WanaDecryptor@.exe?
+
+#### Answer
+
+
+
+
