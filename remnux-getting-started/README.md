@@ -91,7 +91,11 @@ Using the tool, scan another file named possible_malicious.docx located in the /
 
 ### Description
 
-- 
+- INetSim: Internet Services Simulation Suite!
+- Change the INetSim configuration by running this command sudo nano /etc/inetsim/inetsim.conf and look for the value #dns_default_ip 0.0.0.0.
+- Remove the comment or #, then change the value of dns_default_ip from 0.0.0.0 to the machine’s IP address.
+- Run the command sudo inetsim to start the tool.
+- One usual malware behaviour is downloading another binary or script. We will try to mimic this behaviour by getting another file from INetsim. 
 
 #### Question
 
@@ -99,7 +103,9 @@ Download and scan the file named flag.txt from the terminal using the command su
 
 #### Answer
 
-
+![Task 4.1](images/rem5.png)
+![Task 4.2](images/rem6.png)
+Tryhackme{remnux_edition}
 
 #### Question
 
@@ -107,13 +113,25 @@ After stopping the inetsim, read the generated report. Based on the report, what
 
 #### Answer
 
-
+![Task 4.3](images/rem7.png)
+GET
 
 ## Task 05: Memory Investigation: Evidence Preprocessing
 
 ### Description
 
-- 
+- One of the most common investigative practices in Digital Forensics is the preprocessing of evidence.
+- In your RemnuxVM, run sudo su, then navigate to /home/ubuntu/Desktop/tasks/Wcry_memory_image/ directory, and our file would be wcry.mem. We will run each plugin after the command vol3 -f wcry.mem.
+- PsTree:  vol3 -f wcry.mem windows.pstree.PsTree
+- PsList:  vol3 -f wcry.mem windows.pslist.PsList
+- CmdLine:  vol3 -f wcry.mem windows.cmdline.CmdLine
+- FileScan: vol3 -f wcry.mem windows.filescan.FileScan
+- DllList:  vol3 -f wcry.mem windows.dlllist.DllList
+- PsScan:  vol3 -f wcry.mem windows.psscan.PsScan
+- Malfind: vol3 -f wcry.mem windows.malfind.Malfind
+- https://volatility3.readthedocs.io/en/stable/volatility3.plugins.html
+- Investigative practices involves preprocessing evidence and saving the results to text files: for plugin in windows.malfind.Malfind windows.psscan.PsScan windows.pstree.PsTree windows.pslist.PsList windows.cmdline.CmdLine windows.filescan.FileScan windows.dlllist.DllList; do vol3 -q -f wcry.mem $plugin > wcry.$plugin.txt; done
+  
 
 #### Question
 
@@ -121,7 +139,7 @@ What plugin lists processes in a tree based on their parent process ID?
 
 #### Answer
 
-
+PsTree
 
 #### Question
 
@@ -129,7 +147,15 @@ What plugin is used to list all currently active processes in the machine?
 
 #### Answer
 
+PsList
 
+#### Question
+
+What Linux utility tool can extract the ASCII, 16-bit little-endian, and 16-bit big-endian strings?
+
+#### Answer
+
+strings
 
 #### Question
 
@@ -137,7 +163,8 @@ By running vol3 with the Malfind parameter, what is the first (1st) process iden
 
 #### Answer
 
-
+![Task 5.1](images/rem8.png)
+csrss.exe
 
 #### Question
 
@@ -145,7 +172,8 @@ Continuing from the previous question (Question 4), what is the second (2nd) pro
 
 #### Answer
 
-
+![Task 5.2](images/rem9.png)
+winlogon.exe
 
 #### Question
 
@@ -153,6 +181,7 @@ By running vol3 with the DllList parameter, what is the file path or directory o
 
 #### Answer
 
-
+![Task 5.3](images/rem10.png)
+C:\Intel\ivecuqmanpnirkt615
 
 
