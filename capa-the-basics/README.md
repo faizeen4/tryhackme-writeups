@@ -72,7 +72,7 @@ What is the sha256 of cryptbot.bin?
 
 #### Answer
 
-
+![Task 3.1](images/ca1.png)
  ae7bc6b6f6ecb206a7b957e4bb86e0d11845c5b2d9f7a00a482bef63b567ce4c
 
 #### Question
@@ -81,7 +81,7 @@ What is the Technique Identifier of Obfuscated Files or Information?
 
 #### Answer
 
-
+![Task 3.2](images/ca2.png)
  T1027  
 
 #### Question
