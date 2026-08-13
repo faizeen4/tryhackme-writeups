@@ -93,4 +93,83 @@ What tool can be used to view and edit a binary file?
 
 HxD
 
+## Task 03: Commonly used Tools for Investigation:Overview
+
+### Description
+
+
+
+#### Question
+
+Which tool was formerly known as FireEye Labs Obfuscated String Solver?
+
+#### Answer
+
+
+
+#### Question
+
+Which tool offers in-depth insights into the active processes running on your computer?
+
+#### Answer
+
+
+
+#### Question
+
+By using the Process Explorer (procexp) tool, under what process can we find smss.exe?
+
+#### Answer
+
+
+
+#### Question
+
+Which powerful Windows tool is designed to help you record issues with your system's apps?
+
+#### Answer
+
+
+
+#### Question
+
+Which tool can be used for Static analysis or studying executable file properties without running the files?
+
+#### Answer
+
+
+#### Question
+
+Using the tool PEStudio to open the file cryptominer.bin in the Desktop\Sample folder, what is the sha256 value of the file?
+
+#### Answer
+
+
+#### Question
+
+Using the tool PEStudio to open the file cryptominer.bin in the Desktop\Sample folder, how many functions does it have?
+
+#### Answer
+
+
+#### Question
+
+What tool can generate file hashes for integrity verification, authenticate the source of system files, and validate their validity?
+
+#### Answer
+
+
+#### Question
+
+Using the tool CFF Explorer to open the file possible_medusa.txt in the Desktop\Sample folder, what is the MD5 of the file?
+
+#### Answer
+
+
+#### Question
+
+Use the CFF Explorer tool to open the file possible_medusa.txt in the Desktop\Sample folder. Then, go to the DOS Header Section. What is the e_magic value of the file?
+
+#### Answer
+
 
