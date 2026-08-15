@@ -95,7 +95,17 @@ HxD
 
 ## Task 03: Commonly used Tools for Investigation:Overview
 
-
+- Prcess Monitor (Procmon)
+    - A helpful tool for tracking system activity, especially regarding malware research, troubleshooting, and forensic investigations.
+    -  It lets you see, record, and keep track of system and Windows file activity in real-time.
+    -  Although this is a standard system process, LSASS may be the target of credential dumping attacks if you are examining logs for indications of malicious activity. Mimikatz and other tools frequently try         to access LSASS memory. 
+- Process Explorer (Procexp)
+    - Allows you to see the Process of the Parent-child relationship, DLLs loaded, and its path.
+- HxD:	Malicious files can be examined or altered via hex editing.
+- Wireshark:	Observing and investigating network traffic to look for unusual activity.
+- CFF: Explorer	Can generate file hashes for integrity verification, authenticate the source of system files, and validate their validity.
+- PEStudio:	Static analysis or studying executable file properties without running the files.
+- FLOSS:	Extracts and de-obfuscates all strings from malware programs using advanced static analysis techniques. 
 
 ### Description
 
