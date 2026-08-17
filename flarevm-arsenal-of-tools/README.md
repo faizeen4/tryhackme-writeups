@@ -1,4 +1,4 @@
-# FlareVM: Arsenal of Tools
+<img width="997" height="1052" alt="image" src="https://github.com/user-attachments/assets/3c0f1187-553e-49c5-b657-736cc960bd8c" /># FlareVM: Arsenal of Tools
 
 ## Task 01: Introduction
 
@@ -95,21 +95,25 @@ HxD
 
 ## Task 03: Commonly used Tools for Investigation:Overview
 
+### Description
+
 - Prcess Monitor (Procmon)
     - A helpful tool for tracking system activity, especially regarding malware research, troubleshooting, and forensic investigations.
     -  It lets you see, record, and keep track of system and Windows file activity in real-time.
     -  Although this is a standard system process, LSASS may be the target of credential dumping attacks if you are examining logs for indications of malicious activity. Mimikatz and other tools frequently try         to access LSASS memory. 
 - Process Explorer (Procexp)
     - Allows you to see the Process of the Parent-child relationship, DLLs loaded, and its path.
-- HxD:	Malicious files can be examined or altered via hex editing.
-- Wireshark:	Observing and investigating network traffic to look for unusual activity.
-- CFF: Explorer	Can generate file hashes for integrity verification, authenticate the source of system files, and validate their validity.
-- PEStudio:	Static analysis or studying executable file properties without running the files.
-- FLOSS:	Extracts and de-obfuscates all strings from malware programs using advanced static analysis techniques. 
-
-### Description
-
-
+- HxD
+    - Malicious files can be examined or altered via hex editing.
+- Wireshark
+    - Observing and investigating network traffic to look for unusual activity.
+- CFF Explorer
+    - Can generate file hashes for integrity verification, authenticate the source of system files, and validate their validity.
+- PEStudio
+    - Static analysis or studying executable file properties without running the files.
+    - The dual-use nature of PsExec, typically legitimate but suspicious in compromised environments, combined with low to medium indicators and moderately high entropy, makes its presence on a system   concerning, especially if remote code execution is not expected. 
+- FLOSS( FLARE Obfuscated String Solver )
+    - Extracts and de-obfuscates all strings from malware programs using advanced static analysis techniques. 
 
 #### Question
 
@@ -117,7 +121,7 @@ Which tool was formerly known as FireEye Labs Obfuscated String Solver?
 
 #### Answer
 
-
+FLOSS
 
 #### Question
 
@@ -125,7 +129,7 @@ Which tool offers in-depth insights into the active processes running on your co
 
 #### Answer
 
-
+Process Explorer
 
 #### Question
 
@@ -134,6 +138,7 @@ By using the Process Explorer (procexp) tool, under what process can we find sms
 #### Answer
 
 
+System
 
 #### Question
 
@@ -141,7 +146,7 @@ Which powerful Windows tool is designed to help you record issues with your syst
 
 #### Answer
 
-
+Procmon
 
 #### Question
 
@@ -149,6 +154,7 @@ Which tool can be used for Static analysis or studying executable file propertie
 
 #### Answer
 
+PEStudio
 
 #### Question
 
@@ -157,6 +163,8 @@ Using the tool PEStudio to open the file cryptominer.bin in the Desktop\Sample f
 #### Answer
 
 
+E9627EBAAC562067759681DCEBA8DDE8D83B1D813AF8181948C549E342F67C0E
+
 #### Question
 
 Using the tool PEStudio to open the file cryptominer.bin in the Desktop\Sample folder, how many functions does it have?
@@ -164,12 +172,15 @@ Using the tool PEStudio to open the file cryptominer.bin in the Desktop\Sample f
 #### Answer
 
 
+102
+
 #### Question
 
 What tool can generate file hashes for integrity verification, authenticate the source of system files, and validate their validity?
 
 #### Answer
 
+CFF Explorer
 
 #### Question
 
@@ -178,10 +189,14 @@ Using the tool CFF Explorer to open the file possible_medusa.txt in the Desktop\
 #### Answer
 
 
+646698572AFBBF24F50EC5681FEB2DB7
+
 #### Question
 
 Use the CFF Explorer tool to open the file possible_medusa.txt in the Desktop\Sample folder. Then, go to the DOS Header Section. What is the e_magic value of the file?
 
 #### Answer
 
+
+5A4D
 
