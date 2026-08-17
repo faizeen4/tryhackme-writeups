@@ -200,3 +200,83 @@ Use the CFF Explorer tool to open the file possible_medusa.txt in the Desktop\Sa
 ![Task 3.5](images/fl5.png)
 5A4D
 
+## Task04 : Analyzing Malicious File!
+
+#### Description
+
+-  Static Analysis using PEStudio and FLOSS
+       - Target : windows.exe in C:\Users\Administrator\Desktop\Sample folder
+- Analyze with Process Explorer and Process Monitor
+       - Target : cobaltstrike.exe in C:\Users\Administrator\Desktop\Sample folder
+
+#### Question
+
+Using PEStudio, open the file windows.exe. What is the entropy value of the file windows.exe?
+
+#### Answer
+
+![Task 4.1](images/fl6.png)
+7.999
+
+#### Question
+
+Using PEStudio, open the file windows.exe, then go to manifest (administrator section). What is the value under requestedExecutionLevel?
+
+#### Answer
+
+![Task 4.2](images/fl7.png)
+requireAdministrator
+
+#### Question
+
+Which function allows the process to use the operating system's shell to execute other processes?
+
+#### Answer
+
+![Task 4.3](images/fl8.png)
+set_UseShellExecute
+
+#### Question
+
+Which API starts with R and indicates that the executable uses cryptographic functions?
+
+#### Answer
+
+![Task 4.4](images/fl9.png)
+RijndaelManaged
+
+#### Question
+
+What is the Imphash of cobaltstrike.exe?
+
+#### Answer
+
+![Task 4.5](images/fl10.png)
+92EEF189FB188C541CBD83AC8BA4ACF5
+
+#### Question
+
+What is the defanged IP address to which the process cobaltstrike.exe is connecting?
+
+#### Answer
+
+![Task 4.6](images/fl11.png)
+47[.]120[.]46[.]210
+
+#### Question
+
+What is the destination port number used by cobaltstrike.exe when connecting to its C2 IP Address?
+
+#### Answer
+
+![Task 4.7](images/fl12.png)
+81
+
+#### Question
+
+During our analysis, we found a process called cobaltstrike.exe. What is the parent process of cobaltstrike.exe? 
+
+#### Answer
+
+![Task 4.8](images/fl13.png)
+explorer.exe
