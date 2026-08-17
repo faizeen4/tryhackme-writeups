@@ -137,7 +137,7 @@ By using the Process Explorer (procexp) tool, under what process can we find sms
 
 #### Answer
 
-
+![Task 3.1](images/fl1.png)
 System
 
 #### Question
@@ -162,7 +162,7 @@ Using the tool PEStudio to open the file cryptominer.bin in the Desktop\Sample f
 
 #### Answer
 
-
+![Task 3.2](images/fl2.png)
 E9627EBAAC562067759681DCEBA8DDE8D83B1D813AF8181948C549E342F67C0E
 
 #### Question
@@ -171,7 +171,7 @@ Using the tool PEStudio to open the file cryptominer.bin in the Desktop\Sample f
 
 #### Answer
 
-
+![Task 3.3](images/fl3.png)
 102
 
 #### Question
@@ -188,7 +188,7 @@ Using the tool CFF Explorer to open the file possible_medusa.txt in the Desktop\
 
 #### Answer
 
-
+![Task 3.4](images/fl4.png)
 646698572AFBBF24F50EC5681FEB2DB7
 
 #### Question
@@ -197,6 +197,6 @@ Use the CFF Explorer tool to open the file possible_medusa.txt in the Desktop\Sa
 
 #### Answer
 
-
+![Task 3.5](images/fl5.png)
 5A4D
 
