@@ -1,4 +1,4 @@
-<img width="997" height="1052" alt="image" src="https://github.com/user-attachments/assets/3c0f1187-553e-49c5-b657-736cc960bd8c" /># FlareVM: Arsenal of Tools
+ # FlareVM: Arsenal of Tools
 
 ## Task 01: Introduction
 
