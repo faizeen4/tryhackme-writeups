@@ -40,7 +40,6 @@ What is the special character used to bypass Outlook's "Protected View"?
 
 !
 
-
 ## Task 03: Exploitation
 
 ### Description
@@ -65,4 +64,18 @@ What type of hash is captured once the hyperlink in the email has been clicked?
 
 netNTLMv2
 
+## Task 04: Detection
 
+### Description
+
+- A Yara rule used to detect emails containing the file:\\ element in the Moniker Link. https://github.com/Neo23x0/signature-base/blob/master/yara/expl_outlook_cve_2024_21413.yar
+- Wireshark: Additionally, the SMB request from the victim to the client can be seen in a packet capture with a truncated netNTLMv2 hash.
+
+## Task 05: Remediation
+
+### Description
+
+- Microsoft has included patches to resolve this vulnerability in February’s “patch Tuesday” release.
+- Since this vulnerability bypasses Outlook's Protected View, there is no way to reconfigure Outlook to prevent this attack.
+- Additionally, preventing the SMB protocol entirely may do more harm than good, especially as it is essential for accessing network shares.
+- However, you may be able to block this at the firewall level, depending on the organisation.
