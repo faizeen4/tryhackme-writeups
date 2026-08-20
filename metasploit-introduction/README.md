@@ -89,14 +89,22 @@ Who provided the auxiliary/scanner/ssh/ssh_login module?
 
 #### Answer
 
-
+![Task 3.1](images/mi.png)
 todb
 
 ## Task 04: Working with Modules
 
 ### Description
 
-- 
+- Get a context prompt for the desired module.
+- The show options command will list all available parameters.
+- Set the RHOSTS parameter to the IP address of our target system using the set command.
+- You can override any set parameter using the set command again with a different value. You can also clear any parameter value using the unset command or clear all set parameters with the unset all command.
+- You can use the setg command to set values that will be used for all modules.
+- The exploit command can be used without any parameters or using the “-z” parameter.
+- You can use the background command to background the session prompt and go back to the msfconsole prompt.
+- The sessions command can be used from the msfconsole prompt or any context to see the existing sessions.
+- To interact with any session, you can use the sessions -i command followed by the desired session number.
 
 #### Question
 
@@ -104,7 +112,7 @@ How would you set the LPORT value to 6666?
 
 #### Answer
 
-
+set LPORT 6666
 
 #### Question
 
@@ -112,6 +120,7 @@ How would you set the global value for RHOSTS  to 10.10.19.23 ?
 
 #### Answer
 
+setg RHOSTS 10.10.19.23
 
 #### Question
 
@@ -119,6 +128,7 @@ What command would you use to clear a set payload?
 
 #### Answer
 
+unset PAYLOAD
 
 #### Question
 
@@ -126,7 +136,7 @@ What command do you use to proceed with the exploitation phase?
 
 #### Answer
 
-
+exploit
 
 
 
