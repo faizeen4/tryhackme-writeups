@@ -122,7 +122,7 @@ What serves as a catalogue of malware objectives and behaviours?
 
 #### Answer
 
-
+Malware Behavior Catalogue
 
 #### Question
 
@@ -130,7 +130,7 @@ What serves as a catalogue of malware objectives and behaviours?
 
 #### Answer
 
-
+Objective
 
 #### Question
 
@@ -138,7 +138,7 @@ What is the Identifier of "Create Process" micro-behavior?
 
 #### Answer
 
-
+C0017
 
 #### Question
 
@@ -146,7 +146,7 @@ What is the behaviour with an Identifier of B0009?
 
 #### Answer
 
-
+Lab Machine Detection
 
 #### Question
 
@@ -154,10 +154,135 @@ Malware can be used to obfuscate data using base64 and XOR. What is the related 
 
 #### Answer
 
-
+Encode Data
 
 #### Question
 
 Which micro-behavior refers to "Malware is capable of initiating HTTP communications"?
 
 #### Answer
+
+HTTP Communication
+
+## Task 05: Dissecting CAPA Results Part 3: Namespaces
+
+### Description
+
+- Capability(Rule Name)::TLN(Top-Level Namespace)/Namespace
+- CAPA uses namespaces to group items with the same purpose.
+- Top-Level Namespace (TLN) : anti-analysis, collection, communication , compiler, data-manipulation, etc.
+
+#### Question
+
+Which top-level Namespace contains a set of rules specifically designed to detect behaviours, including obfuscation, packing, and anti-debugging techniques exhibited by malware to evade analysis?
+
+#### Answer
+
+anti-analysis
+
+#### Question
+
+Which namespace contains rules to detect lab machine (VM) environments? Note that this is not the TLN or Top-Level Namespace.
+
+#### Answer
+
+anti-vm/vm-detection
+
+#### Question
+
+Which Top-Level Namespace contains rules related to behaviours associated with maintaining access or persistence within a compromised system? This namespace is focused on understanding how malware can establish and maintain a presence within a compromised environment, allowing it to persist and carry out malicious activities over an extended period.
+
+#### Answer
+
+persistence
+
+#### Question
+
+Which namespace addresses techniques such as String Encryption, Code Obfuscation, Packing, and Anti-Debugging Tricks, which conceal or obscure the true purpose of the code?
+
+#### Answer
+
+obfuscation
+
+#### Question
+
+Which Top-Level Namespace Is a staging ground for rules that are not quite polished?
+
+#### Answer
+
+Nursery
+
+## Task 06: Dissecting CAPA Results Part 4:Capability
+
+### Description
+
+- Capability: reference base64 string
+- Top-Level Namespace: data-manipulation	
+- Namespace:	encoding/base64	
+- Rule YAML File Matched?:	reference-base64-string.yml
+
+#### Question
+
+What rule yaml file was matched if the Capability or rule name is check HTTP status code?
+
+#### Answer
+
+check-http-status-code.yml
+
+#### Question
+
+What is the name of the Capability if the rule YAML file is reference-anti-vm-strings.yml?
+
+#### Answer
+
+reference anti-VM strings
+
+#### Question
+
+Which TLN or Top-Level Namespace includes the Capability or rule name run PowerShell expression?
+
+#### Answer
+
+load-code
+
+#### Question
+
+Check the conditions inside the check-for-windows-sandbox-via-registry.yml rule file from this link (opens in new tab). What is the value of the API that ends in Ex is it looking for?
+
+#### Answer
+
+RegOpenKeyEx
+
+
+## Task 07: More Information,more fun!
+
+### Description
+
+- 
+
+#### Question
+
+Which parameter allows you to output the result of CAPA into a .json file?
+
+#### Answer
+
+
+#### Question
+
+What tool allows you to interactively explore CAPA results in your web browser?
+
+#### Answer
+
+
+#### Question
+
+Which feature of this CAPA Web Explorer allows you to filter options or results?
+
+#### Answer
+
+
+
+
+
+
+
