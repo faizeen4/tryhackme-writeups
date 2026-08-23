@@ -57,6 +57,7 @@ What is the computer name?
 
 #### Answer
 
+![Task 5.1](images/mm1.png)
 ACME-TEST
 
 #### Question
@@ -73,6 +74,7 @@ What is the name of the share likely created by the user?
 
 #### Answer
 
+![Task 5.2](images/mm2.png)
 speedster
 
 #### Question
@@ -81,6 +83,7 @@ What is the NTLM hash of the jchambers user?
 
 #### Answer
 
+![Task 5.3](images/mm3.png)
 69596c7aa1e8daee17f8e78870e25a5c
 
 #### Question
@@ -89,6 +92,7 @@ What is the cleartext password of the jchambers user?
 
 #### Answer
 
+![Task 5.4](images/mm4.png)
 Trustno1
 
 #### Question
@@ -97,6 +101,7 @@ Where is the "secrets.txt"  file located? (Full path of the file)
 
 #### Answer
 
+![Task 5.5](images/mm5.png)
 c:\Program Files (x86)\Windows Multimedia Platform\secrets.txt 
 
 #### Question
@@ -105,6 +110,7 @@ What is the Twitter password revealed in the "secrets.txt" file?
 
 #### Answer
 
+![Task 5.6](images/mm6.png)
 KDSvbsw3849!
 
 #### Question
@@ -113,6 +119,7 @@ Where is the "realsecret.txt" file located? (Full path of the file)
 
 #### Answer
 
+![Task 5.7](images/mm7.png)
 c:\inetpub\wwwroot\realsecret.txt
 
 #### Question
@@ -121,6 +128,7 @@ What is the real secret?
 
 #### Answer
 
+![Task 5.8](images/mm8.png)
 The Flash is the fastest man alive
 
 
