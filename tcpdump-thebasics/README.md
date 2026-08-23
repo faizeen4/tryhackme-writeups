@@ -51,6 +51,7 @@ How many packets in traffic.pcap use the ICMP protocol?
 
 #### Answer
 
+![Task 3.1](images/tcp1.png)
 26
 
 #### Question
@@ -59,6 +60,7 @@ What is the IP address of the host that asked for the MAC address of 192.168.124
 
 #### Answer
 
+![Task 3.2](images/tcp2.png)
 192.168.124.148
 
 #### Question
@@ -67,6 +69,7 @@ What hostname (subdomain) appears in the first DNS query?
 
 #### Answer
 
+![Task 3.3](images/tcp3.png)
 mirrors.rockylinux.org.
 
 ## Task 04: Advanced Filtering
@@ -88,6 +91,7 @@ How many packets have only the TCP Reset (RST) flag set?
 
 #### Answer
 
+![Task 4.1](images/tcp4.png)
 57
 
 #### Question
@@ -96,6 +100,7 @@ What is the IP address of the host that sent packets larger than 15000 bytes?
 
 #### Answer
 
+![Task 4.2](images/tcp5.png)
 185.117.80.53
 
 ## Task 05: Displaying Packets
@@ -115,4 +120,5 @@ What is the MAC address of the host that sent an ARP request?
 
 #### Answer
 
+![Task 5.1](images/tcp6.png)
 52:54:00:7c:d3:5b
