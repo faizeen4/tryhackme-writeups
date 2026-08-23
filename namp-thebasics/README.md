@@ -23,6 +23,7 @@ What is the last IP address that will be scanned when your scan target is 192.16
 
 #### Answer
 
+![Task 2.1](images/nm1.png)
 192.168.0.31
 
 ## Task 03: Port Scanning:Who Is Listening
@@ -41,6 +42,7 @@ How many TCP ports are open on the target system at 10.49.133.88?
 
 #### Answer
 
+![Task 3.1](images/nm2.png)
 6
 
 #### Question
@@ -49,6 +51,7 @@ Find the listening web server on 10.49.133.88 and access it with your browser. W
 
 #### Answer
 
+![Task 3.2](images/nm3.png)
 THM{SECRET_PAGE_38B9P6}
 
 ## Task 04: Version Detection:Extract More Information
@@ -66,6 +69,7 @@ What is the name and detected version of the web server running on 10.49.133.88?
 
 #### Answer
 
+![Task 4.1](images/nm4.png)
 lighttpd 1.4.74
 
 ## Task 05: Timing:How Fast is Fast
@@ -82,9 +86,8 @@ lighttpd 1.4.74
 What is the non-numeric equivalent of -T4?
 
 #### Answer
-//no pic
--T aggressive
 
+-T aggressive
 
 ## Task 06: Output:Controlling What You See
 
@@ -103,7 +106,7 @@ What is the non-numeric equivalent of -T4?
 What option must you add to your nmap command to enable debugging?
 
 #### Answer
-//no pic
+
 -d
 
 
