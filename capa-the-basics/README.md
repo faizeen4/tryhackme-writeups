@@ -256,16 +256,13 @@ RegOpenKeyEx
 
 ## Task 07: More Information,more fun!
 
-### Description
-
-- 
-
 #### Question
 
 Which parameter allows you to output the result of CAPA into a .json file?
 
 #### Answer
 
+-j
 
 #### Question
 
@@ -273,6 +270,7 @@ What tool allows you to interactively explore CAPA results in your web browser?
 
 #### Answer
 
+CAPA Web Explorer
 
 #### Question
 
@@ -280,7 +278,7 @@ Which feature of this CAPA Web Explorer allows you to filter options or results?
 
 #### Answer
 
-
+Global Search Box
 
 
 
